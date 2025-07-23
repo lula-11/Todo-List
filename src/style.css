@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    background-color: #DEB76C;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+    padding: 10px 20px;
+    gap: 8px;
+    color: white;
+}
+
+header{
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+
+
+.addTodoTable, .addProjectTable{
+      display: none;
+      flex-direction: column;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      border: black 1px solid;
+      border-radius: 10%;
+      padding: 10%;
+      background-color: wheat;
+      transform: translate(-50%, -50%);
+}
+
+
+.todos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.todo-item{
+    background-color: bisque;
+    margin: 5%;
+    border: black 1px solid;
+    border-radius: 10%;
+}
